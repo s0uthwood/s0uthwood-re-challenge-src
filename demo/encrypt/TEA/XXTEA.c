@@ -34,7 +34,7 @@ int main(){
     memset(input, 0, sizeof(input));
     scanf("%s", input);
     if (strlen(input) != 0x10) {
-        printf("Wrong");
+        printf("Wrong\n");
         return 0;
     }
     btea((uint32_t*)input, 4, key);
@@ -42,9 +42,9 @@ int main(){
     //     printf("%02hhx, ", input[i]);
     // }
     if (!strncmp(input, cipher, 0x10)) {
-        printf("Good");
+        printf("Good\n");
     } else {
-        printf("Wrong");
+        printf("Wrong\n");
     }
     return 0;
 }

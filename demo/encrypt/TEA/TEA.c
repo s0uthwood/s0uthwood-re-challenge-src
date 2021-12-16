@@ -29,7 +29,7 @@ int main(){
     // flag{Drink_TEA!}
     int input_len = strlen(input);
     if (input_len != 0x10) {
-        printf("Wrong");
+        printf("Wrong\n");
         return 0;
     }
     uint32_t key[] = {0x11111111, 0x55555555, 0x99999999, 0xdddddddd};
@@ -40,9 +40,9 @@ int main(){
     // printf("%x\n", *((uint32_t*)input + 2));
     // printf("%x\n", *((uint32_t*)input + 3));
     if (!strncmp(input, cipher, input_len)) {
-        printf("Good");
+        printf("Good\n");
     } else {
-        printf("Wrong");
+        printf("Wrong\n");
     }
     return 0;
 }
