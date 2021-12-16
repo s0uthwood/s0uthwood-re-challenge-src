@@ -3,6 +3,7 @@
 - basic
   - little-endian
   - init
+  - ...
 - encrypt
   - Base64
   - RC4
@@ -17,6 +18,7 @@
   - puzzle
   - magic_square
   - queens
+  - ...
 - lang
   - python
   - go
@@ -30,4 +32,5 @@
   - vmp
   - heaven_gate
   - code_inject
+  - ...
 
