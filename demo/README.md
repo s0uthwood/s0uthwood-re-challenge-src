@@ -1,0 +1,33 @@
+# Demo Challenge
+
+- basic
+  - little-endian
+  - init
+- encrypt
+  - Base64
+  - RC4
+  - TEA
+  - AES
+  - Salse20
+  - ECC
+  - ...
+- game
+  - maze
+  - sudoku
+  - puzzle
+  - magic_square
+  - queens
+- lang
+  - python
+  - go
+  - java
+  - lemon
+  - ...
+- protect
+  - junk
+  - packed
+  - smc
+  - vmp
+  - heaven_gate
+  - code_inject
+
