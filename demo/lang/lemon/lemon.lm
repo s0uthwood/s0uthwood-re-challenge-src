@@ -1,0 +1,73 @@
+var v0 = 68694329;
+def w(){
+  v0 = (v0 * 1259409 + 321625345) % 0x100000000;
+  return v0;
+}
+
+class A{
+  def __init__(var n){
+    self.a = [];
+    var i = 0;
+    while (i < n){
+      self.a.append(w());
+      i += 1;
+    }
+  }
+  def r(var x, var y){
+    if (x > y){
+      return self.r(y, x);
+    } 
+    while (x < y) {
+      self.s(x, y);
+      x += 1;
+      y -= 1;
+    }
+  }
+  def s(var x, var y){
+    var tmp_a = self.a[x];
+    self.a[x] = self.a[y];
+    self.a[y] = tmp_a;
+  }
+  def o(var x, var y, var val){
+    if (x > y){
+      return self.o(y, x, val);
+    }
+    var i = x;
+    while (i <= y){
+      self.a[i] = self.a[i] ^ val;
+      i += 1;
+    }
+  }
+}
+
+var v7 = 200000;
+var v8 = A(v7);
+var v9 = 0;
+var v10;
+var v11;
+var v12;
+var v13;
+while (v9 < v7 * 5){
+  v10 = w() % 48;
+  v11 = w() % v7;
+  v12 = w() % v7;
+  if (v10 == 35){
+    v8.r(v11, v12);
+  }
+  else if (v10 == 1){
+    v8.s(v11, v12);
+  }
+  else if (v10 == 2){
+    v13 = w();
+    v8.o(v11, v12, v13);
+  }
+  v9 += 1;
+}
+
+var v14 = 0;
+v9 = 0;
+while (v9 < v7){
+  v14 += v8.a[v9] * (v9 + 1);
+  v9 += 1;
+}
+print ("hitcon{" + v14.__string__() + "}");
