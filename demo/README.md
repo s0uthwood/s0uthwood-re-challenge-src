@@ -1,29 +1,33 @@
 # Demo Challenge
 
+This folder includes basic skills of RE in CTF.
+
+The plan is as follows, and **Bolded** means already already implemented
+
 - basic
-  - little-endian
-  - init
+  - **little-endian**
+  - **init**
   - ...
 - encrypt
-  - Base64
-  - RC4
-  - TEA
+  - **Base64**
+  - **RC4**
+  - **TEA**
   - AES
-  - Salse20
+  - **Salse20**
   - ECC
   - ...
 - game
-  - maze
+  - **maze**
   - sudoku
   - puzzle
   - magic_square
   - queens
   - ...
 - lang
-  - python
+  - **python**
   - go
   - java
-  - lemon
+  - **lemon**
   - ...
 - protect
   - junk
