@@ -30,11 +30,11 @@ The plan is as follows, and **Bolded** means already already implemented
   - **lemon**
   - ...
 - protect
-  - junk
+  - **junk**
   - packed
   - smc
   - vmp
   - heaven_gate
-  - code_inject
+  - **process_hollowing**
   - ...
 

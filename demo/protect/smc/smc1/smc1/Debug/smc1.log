@@ -1,4 +1,0 @@
-﻿  smc_test.c
-C:\Users\42914\Desktop\ctf\s0\smc\smc1\smc1\smc_test.c(91,1): warning C4047: “初始化”:“unsigned char *”与“int (__cdecl *)()”的间接级别不同
-C:\Users\42914\Desktop\ctf\s0\smc\smc1\smc1\smc_test.c(25): warning C4715: “smc”: 不是所有的控件路径都返回值
-  smc1.vcxproj -> C:\Users\42914\Desktop\ctf\s0\smc\smc1\Debug\smc1.exe
