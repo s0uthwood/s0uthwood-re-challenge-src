@@ -2,39 +2,41 @@
 
 This folder includes basic skills of RE in CTF.
 
-The plan is as follows, and **Bolded** means already already implemented
+The plan is as follows, and :white_check_mark: means already implemented
 
 - basic
-  - **little-endian**
-  - **init**
+  - **little-endian** :white_check_mark:
+  - **init** :white_check_mark:
   - ...
 - encrypt
-  - **Base64**
-  - **RC4**
-  - **TEA**
+  - **Base64** :white_check_mark:
+  - **RC4** :white_check_mark:
+  - **TEA** :white_check_mark:
   - AES
-  - **Salse20**
+  - **Salse20** :white_check_mark:
   - ECC
   - ...
 - game
-  - **maze**
+  - **maze** :white_check_mark:
   - sudoku
   - puzzle
   - magic_square
   - queens
   - ...
 - lang
-  - **python**
+  - **python** :white_check_mark:
   - go
   - java
-  - **lemon**
+  - **lemon** :white_check_mark:
   - ...
 - protect
-  - **junk**
+  - **junk** :white_check_mark:
   - packed
-  - smc
+  - **smc** :white_check_mark:
   - vmp
   - heaven_gate
-  - **process_hollowing**
   - ...
-
+- code_inject
+  - **process_hollowing** :white_check_mark:
+  - **APC_inject** :white_check_mark:
+  - ...
