@@ -7,6 +7,7 @@ The plan is as follows, and :white_check_mark: means already implemented
 - basic
   - **little-endian** :white_check_mark:
   - **init** :white_check_mark:
+  - **try catch** :white_check_mark:
   - ...
 - encrypt
   - **Base64** :white_check_mark:
@@ -28,6 +29,8 @@ The plan is as follows, and :white_check_mark: means already implemented
   - go
   - java
   - **lemon** :white_check_mark:
+  - wasm
+  - .NET
   - ...
 - protect
   - **junk** :white_check_mark:
@@ -37,6 +40,9 @@ The plan is as follows, and :white_check_mark: means already implemented
   - heaven_gate
   - ...
 - code_inject
-  - **process_hollowing** :white_check_mark:
-  - **APC_inject** :white_check_mark:
+  - **process hollowing** :white_check_mark:
+  - **APC inject** :white_check_mark:
+  - SetContext Hijeck Thread
+  - TLS
+  - SEH
   - ...
