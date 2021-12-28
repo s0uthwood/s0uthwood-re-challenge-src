@@ -26,7 +26,7 @@ The plan is as follows, and :white_check_mark: means already implemented
   - ...
 - lang
   - **python** :white_check_mark:
-  - go
+  - **go** :white_check_mark:
   - java
   - **lemon** :white_check_mark:
   - wasm
