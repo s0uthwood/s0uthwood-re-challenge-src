@@ -37,7 +37,7 @@ The plan is as follows, and :white_check_mark: means already implemented
   - packed
   - **smc** :white_check_mark:
   - vmp
-  - heaven_gate
+  - **heaven_gate** :white_check_mark:
   - ...
 - code_inject
   - **process hollowing** :white_check_mark:
