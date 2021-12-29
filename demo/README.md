@@ -25,7 +25,10 @@ The plan is as follows, and :white_check_mark: means already implemented
   - queens
   - ...
 - lang
-  - **python** :white_check_mark:
+  - python
+    - **bytecode** :white_check_mark:
+    - **pyc** :white_check_mark:
+    - pyinstaller
   - **go** :white_check_mark:
   - java
   - **lemon** :white_check_mark:
