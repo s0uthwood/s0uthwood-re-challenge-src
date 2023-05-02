@@ -2,7 +2,7 @@
 
 Challenge from HITCON CTF 2021
 
-I reverse the source code, and there is one byte difference but not affect the solution.
+I reverse the source code, and there is one byte difference but does not affect the solution.
 
 language: https://github.com/lemon-lang/lemon
 

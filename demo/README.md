@@ -8,6 +8,7 @@ The plan is as follows, and :white_check_mark: means already implemented
   - **little-endian** :white_check_mark:
   - **init** :white_check_mark:
   - **try catch** :white_check_mark:
+  - SIMD
   - ...
 - encrypt
   - **Base64** :white_check_mark:
@@ -28,6 +29,7 @@ The plan is as follows, and :white_check_mark: means already implemented
   - python
     - **bytecode** :white_check_mark:
     - **pyc** :white_check_mark:
+    - **pyd** :white_check_mark:
     - pyinstaller
   - **go** :white_check_mark:
   - java
@@ -39,7 +41,7 @@ The plan is as follows, and :white_check_mark: means already implemented
   - **junk** :white_check_mark:
   - packed
   - **smc** :white_check_mark:
-  - vmp
+  - **vm** :white_check_mark:
   - **heaven_gate** :white_check_mark:
   - ...
 - code_inject
